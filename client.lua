@@ -6,9 +6,3 @@ function startUI(time, text)
 		text = text
 	})
 end
-
-RegisterCommand('trzeciad', function(source, args)
-	local text = args[1]
-	local time = args[2]
-    startUI(time, text)
-end, false)
