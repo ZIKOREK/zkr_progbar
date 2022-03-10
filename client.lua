@@ -1,4 +1,4 @@
-function progbar(time, text) 
+function startUI(time, text) 
 	SendNUIMessage({
 		type = "ui",
 		display = true,
