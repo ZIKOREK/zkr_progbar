@@ -1,8 +1,8 @@
-function startUI(time, text) 
+function startUI(czas, tekscior) 
 	SendNUIMessage({
 		type = "ui",
 		display = true,
-		time = time,
-		text = text
+		time = czas,
+		text = tekscior
 	})
 end
